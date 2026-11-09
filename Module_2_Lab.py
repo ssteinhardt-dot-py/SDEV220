@@ -26,8 +26,9 @@ while student_l_name.lower() != 'zzz':
     
     # I was unsure if I should use an elif here, as the assignment does 
     # not specify if the student can be on the honor roll and the Dean's 
-    # list at the same time. If they cant, this line be be fixed by using 
-    # elif instead, so I just assumed that the student can do both. 
+    # list at the same time. I am sure I'm overthinking thise, but if they cant, 
+    # this line be be fixed by using 
+    # elif instead, I just assumed that the student can do both. 
     if gpa >= 3.25:
         print(student_f_name, student_l_name, "has made the honor roll!")
 
